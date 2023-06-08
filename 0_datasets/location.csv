@@ -1,0 +1,19 @@
+location
+id;LocationName;Coordiantes;Radiation (kWh);AvgTemperature (celsius);HoursOfSun;Code
+1;Berkly Country, South Carolina;33.064111,-80.043361;4.7;21;12.5;SC
+2;Council Bluffs, Iowa;41.221583,-95.863867;4.475;16;12.51;IA
+3;Douglas Country, Georgia;33.749733,-84.584814;4.85;20;12.25;GA
+4;Bridgeport, Alabama;34.913444,-85.748083;4.5;21;12.25;AL
+5;The Dalles, Oregon;45.632511,-121.202267;4.425;15;11.91;OR
+6;Reno, Nevada (Sparks, Washoe County);39.552664456, -119.734663728;5.425;13;11.9;NV
+7;Maiden, Catawba County, North Carolina;35.57569, -81.21175;4.65;20;11.89;NC
+8;Mesa, Maricopa County, Arizona;33.424564, -111.833267;5.8;23;11.89;AZ
+9;Maricopa County, Arizona;32.916667, -112.966667;5.875;22;12.15;CA
+10;Riverside County, California;33.716667, -114.75;5.8;20;12.15;CA
+11;Carrizo Plain, San Luis Obispo County, California ;35.383333, -120.066667;5.6;15;12.15;CA
+12;Rosamond, California;34.830556, -118.398056;5.85;19;12.2;CA
+13;Boulder City, Nevada;35.783333, -114.991667;5.8;21;12.2;NV
+14;Arlington, Arizona;33.333333, -112.916667;5.875;23;12.15;AZ
+16;Wapello, Iowa;41.179722, -91.188333;4.325;11;12.2;IA
+17;Greenfield, Adair County, Iowa;41.4669, -94.2627;4.425;10;12.15;IA
+;;;;; ;

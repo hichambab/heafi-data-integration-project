@@ -1,0 +1,55 @@
+STATE,ENERGY SOURCE,GENERATION (Megawatthours)
+AZ,Coal,28601150.0
+AZ,Hydroelectric Conventional,11634890.0
+AZ,Natural Gas,96372948.0
+AZ,Nuclear,63259724.0
+AZ,Petroleum,87015.0
+AZ,Other Biomass,43590.0
+CA,Coal,588310.0
+CA,Hydroelectric Conventional,29118820.0
+CA,Natural Gas,192980100.0
+CA,Nuclear,32954732.0
+CA,Petroleum,150689.0
+CA,Other Biomass,5173754.0
+NV,Coal,5504951.0
+NV,Hydroelectric Conventional,3903478.0
+NV,Natural Gas,52327190.0
+NV,Nuclear,0.0
+NV,Petroleum,16027.0
+NV,Other Biomass,121878.0
+AL,Coal,53813956.0
+AL,Hydroelectric Conventional,25035406.0
+AL,Natural Gas,107573401.0
+AL,Nuclear,92072978.0
+AL,Petroleum,50429.0
+AL,Other Biomass,75764.0
+SC,Coal,30375762.0
+SC,Hydroelectric Conventional,7441104.0
+SC,Natural Gas,46542039.0
+SC,Nuclear,107542856.0
+SC,Petroleum,225753.0
+SC,Other Biomass,238855.0
+NC,Coal,40809165.0
+NC,Hydroelectric Conventional,15192861.0
+NC,Natural Gas,94231197.0
+NC,Nuclear,86235414.0
+NC,Petroleum,371189.0
+NC,Other Biomass,1101829.0
+GA,Coal,38184096.0
+GA,Hydroelectric Conventional,8336082.0
+GA,Natural Gas,117129242.0
+GA,Nuclear,67903952.0
+GA,Petroleum,618373.0
+GA,Other Biomass,647540.0
+IA,Coal,44242033.0
+IA,Hydroelectric Conventional,1910756.0
+IA,Natural Gas,11898505.0
+IA,Nuclear,0.0
+IA,Petroleum,181443.0
+IA,Other Biomass,399203.0
+OR,Coal,0.0
+OR,Hydroelectric Conventional,56722359.0
+OR,Natural Gas,40714762.0
+OR,Nuclear,0.0
+OR,Petroleum,337.0
+OR,Other Biomass,613015.0

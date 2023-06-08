@@ -1,0 +1,10 @@
+id;Name;State;Capacity (MW);AnnualGeneration (GWh);Type;LocationId;
+1;Solana;Arizona;280.0;792;Solar Photovoltaic;;32.916667, -112.966667
+2;McCoy;California;485.0;721;Solar Thermal;;33.716667, -114.75
+3;Topaz;California;589.9;1256;Solar Photovoltaic;;35.383333, -120.066667
+4;Solar Star I & II;California;597.0;1621;Solar Photovoltaic;;34.830556, -118.398056
+5;El Dorado;Nevada;802.0;1358;Solar Photovoltaic;;35.783333, -114.991667
+6;Mesquite Solar project;Arizona;400.0;1133;Solar Photovoltaic;;33.333333, -112.916667
+7;Copper Mountain Solar Facility;Nevada;802.0;1348;Solar Photovoltaic;;35.783333, -114.991667
+8;Wapello Solar;Iowa;100.0;423;Solar Photovoltaic;;41.179722, -91.188333
+9;Arbor Hill Solar;Iowa; 31.8;90;Solar Photovoltaic;;41.4669, -94.2627

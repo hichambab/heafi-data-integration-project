@@ -31,7 +31,6 @@ client.connect((err) => {
     name VARCHAR(100)
   );
 
-
   CREATE TABLE IF NOT EXISTS location (
     id SERIAL PRIMARY KEY,
     LocationName VARCHAR(100),
@@ -77,7 +76,6 @@ client.connect((err) => {
     Nuclear NUMERIC(10,5),
     HydroelectricConventional NUMERIC(10,5),
     OtherBiomass NUMERIC(10,5)
-
   );
 `, (err, result) => {
   if (err) {
@@ -86,3 +84,6 @@ client.connect((err) => {
     console.log('Tables created successfully');
   }
 });
+
+
+

@@ -28,7 +28,7 @@ client.connect((err) => {
   client.query(`
   CREATE TABLE IF NOT EXISTS fuel (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(100)
+    Fuel VARCHAR(100)
   );
 
   CREATE TABLE IF NOT EXISTS location (

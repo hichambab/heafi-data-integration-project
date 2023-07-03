@@ -35,9 +35,9 @@ client.connect((err) => {
     id SERIAL PRIMARY KEY,
     LocationName VARCHAR(100),
     Coordinates VARCHAR(100), 
-    Radiation_kWH NUMERIC(5,5),
-    AvgTemperature_celsius NUMERIC(5,5),
-    HoursOfSun NUMERIC(5,5),
+    Radiation_kWH NUMERIC(8,3),
+    AvgTemperature_celsius NUMERIC(8,3),
+    HoursOfSun NUMERIC(8,3),
     Code VARCHAR(100)
   );
 
@@ -55,7 +55,8 @@ client.connect((err) => {
     Capacity_MW NUMERIC(10,5),
     AnnualGeneration_GWh NUMERIC(10,5),
     Type VARCHAR(100),
-    Location VARCHAR(100)
+    Coordinates VARCHAR(100),
+    StateCode VARCHAR(100)
   );
 
   CREATE TABLE IF NOT EXISTS dataCenterEnergyConsumption (
@@ -63,7 +64,8 @@ client.connect((err) => {
     Name VARCHAR(100),
     AmmountConsumedPerYear_kWh NUMERIC(10,5),
     Size_GWh NUMERIC(10,5),
-    GeoCoordinates VARCHAR(100)
+    GeoCoordinates VARCHAR(100),
+    StateCode VARCHAR(100)
   );
 
   CREATE TABLE IF NOT EXISTS energyConsumption (

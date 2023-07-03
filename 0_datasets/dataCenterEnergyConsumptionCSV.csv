@@ -1,9 +1,9 @@
-id;name;ammountConsumedperYear kWh;Size (m2);GeoCoordinates;
-1;Google Berkley Country, South Carolina;16891464.55;18580.61;33.064111,-80.043361;
-2;Google Council Bluffs, Iowa;241849369.37;268489.8;41.221583,-95.863867;
-3;Google Douglas County, Georgia;110872477.06;120774.0;33.749733,-84.584814;
-4;Google Bridgeport, Alabama;22633153.15;25083.82;34.913444,-85.748083;
-5;Google The Dalles, Oregon;29728063.64;32701.87;45.632511,-121.202267;
-6;Apple Reno, Nevada (Sparks, Washoe County);395000000.0;34642.89;39.552664456,-119.734663728;
-7;Apple Maiden, Catawba County, North Carolina;392000000.0;92903.04;35.57569,-81.21175;
-8;Apple Mesa, Maricopa County, Arizona;332000000.0;120774.0;33.424564,-111.833267;
+id;name;ammountConsumedperYear kWh;Size (m2);GeoCoordinates
+1;Google Berkley Country, South Carolina;16891464.55;18580.61;33.064111,-80.043361
+2;Google Council Bluffs, Iowa;241849369.37;268489.8;41.221583,-95.863867
+3;Google Douglas County, Georgia;110872477.06;120774.0;33.749733,-84.584814
+4;Google Bridgeport, Alabama;22633153.15;25083.82;34.913444,-85.748083
+5;Google The Dalles, Oregon;29728063.64;32701.87;45.632511,-121.202267
+6;Apple Reno, Nevada (Sparks, Washoe County);395000000.0;34642.89;39.552664456,-119.734663728
+7;Apple Maiden, Catawba County, North Carolina;392000000.0;92903.04;35.57569,-81.21175
+8;Apple Mesa, Maricopa County, Arizona;332000000.0;120774.0;33.424564,-111.833267

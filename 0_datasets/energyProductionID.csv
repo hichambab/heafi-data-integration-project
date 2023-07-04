@@ -1,0 +1,55 @@
+id;State;EnergySource;Generation_MWH
+1;AZ;Coal;28601150.0
+2;AZ;Hydroelectric Conventional;11634890.0
+3;AZ;Natural Gas;96372948.0
+4;AZ;Nuclear;63259724.0
+5;AZ;Petroleum;87015.0
+6;AZ;Other Biomass;43590.0
+7;CA;Coal;588310.0
+8;CA;Hydroelectric Conventional;29118820.0
+9;CA;Natural Gas;192980100.0
+10;CA;Nuclear;32954732.0
+11;CA;Petroleum;150689.0
+12;CA;Other Biomass;5173754.0
+13;NV;Coal;5504951.0
+14;NV;Hydroelectric Conventional;3903478.0
+15;NV;Natural Gas;52327190.0
+16;NV;Nuclear;0.0
+17;NV;Petroleum;16027.0
+18;NV;Other Biomass;121878.0
+19;AL;Coal;53813956.0
+20;AL;Hydroelectric Conventional;25035406.0
+21;AL;Natural Gas;107573401.0
+22;AL;Nuclear;92072978.0
+23;AL;Petroleum;50429.0
+24;AL;Other Biomass;75764.0
+25;SC;Coal;30375762.0
+26;SC;Hydroelectric Conventional;7441104.0
+27;SC;Natural Gas;46542039.0
+28;SC;Nuclear;107542856.0
+29;SC;Petroleum;225753.0
+30;SC;Other Biomass;238855.0
+31;NC;Coal;40809165.0
+32;NC;Hydroelectric Conventional;15192861.0
+33;NC;Natural Gas;94231197.0
+34;NC;Nuclear;86235414.0
+35;NC;Petroleum;371189.0
+36;NC;Other Biomass;1101829.0
+37;GA;Coal;38184096.0
+38;GA;Hydroelectric Conventional;8336082.0
+39;GA;Natural Gas;117129242.0
+40;GA;Nuclear;67903952.0
+41;GA;Petroleum;618373.0
+42;GA;Other Biomass;647540.0
+43;IA;Coal;44242033.0
+44;IA;Hydroelectric Conventional;1910756.0
+45;IA;Natural Gas;11898505.0
+46;IA;Nuclear;0.0
+47;IA;Petroleum;181443.0
+48;IA;Other Biomass;399203.0
+49;OR;Coal;0.0
+50;OR;Hydroelectric Conventional;56722359.0
+51;OR;Natural Gas;40714762.0
+52;OR;Nuclear;0.0
+53;OR;Petroleum;337.0
+54;OR;Other Biomass;613015.0

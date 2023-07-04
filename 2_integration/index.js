@@ -33,8 +33,6 @@ client.connect((err) => {
 
   CREATE TABLE IF NOT EXISTS location (
     id SERIAL PRIMARY KEY,
-    LocationName VARCHAR(100),
-    Coordinates VARCHAR(100), 
     Radiation_kWH NUMERIC(8,3),
     AvgTemperature_celsius NUMERIC(8,3),
     HoursOfSun NUMERIC(8,3),
@@ -45,7 +43,11 @@ client.connect((err) => {
     id SERIAL PRIMARY KEY,
     State VARCHAR(100),
     EnergySource VARCHAR(100), 
-    Generation_kWH NUMERIC(10,5)
+    Generation_MWH NUMERIC(100,5),
+    FuelID INT NULL,
+    FOREIGN KEY (FuelID) REFERENCES fuel (id),
+    LocationID INT NULL,
+    FOREIGN KEY (LocationID) REFERENCES location (id)
   );
 
   CREATE TABLE IF NOT EXISTS solarFarmProduction (
@@ -56,28 +58,32 @@ client.connect((err) => {
     AnnualGeneration_GWh NUMERIC(10,5),
     Type VARCHAR(100),
     Coordinates VARCHAR(100),
-    StateCode VARCHAR(100)
+    StateCode VARCHAR(100),
+    LocationID INT NULL,
+    FOREIGN KEY (LocationID) REFERENCES location (id)
   );
 
   CREATE TABLE IF NOT EXISTS dataCenterEnergyConsumption (
     id SERIAL PRIMARY KEY,
     Name VARCHAR(100),
-    AmmountConsumedPerYear_kWh NUMERIC(10,5),
-    Size_GWh NUMERIC(10,5),
+    AmmountConsumedPerYear_kWh NUMERIC(100,50),
+    Size_mxm NUMERIC(100,5),
     GeoCoordinates VARCHAR(100),
-    StateCode VARCHAR(100)
-  );
+    StateCode VARCHAR(100),
+    LocationID INT NULL,
+    FOREIGN KEY (LocationID) REFERENCES location (id)
+  );  
 
   CREATE TABLE IF NOT EXISTS energyConsumption (
     id SERIAL PRIMARY KEY,
     State VARCHAR(100),
     Code VARCHAR(100),
-    Coal NUMERIC(10,5),
-    NaturalGas NUMERIC(10,5),
-    Petroleum NUMERIC(10,5),
-    Nuclear NUMERIC(10,5),
-    HydroelectricConventional NUMERIC(10,5),
-    OtherBiomass NUMERIC(10,5)
+    FuelType VARCHAR(100),
+    Consumption NUMERIC(100,5),
+    FuelID INT NULL,
+    FOREIGN KEY (FuelID) REFERENCES fuel (id),
+    LocationID INT NULL,
+    FOREIGN KEY (LocationID) REFERENCES location (id)
   );
 `, (err, result) => {
   if (err) {

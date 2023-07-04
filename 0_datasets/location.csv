@@ -13,5 +13,5 @@ id;LocationName;Coordinates;Radiation_kWH;AvgTemperature_celsius;HoursOfSun;Code
 12;Rosamond California;34.830556  -118.398056;5.85;19;12.2;CA
 13;Boulder City Nevada;35.783333  -114.991667;5.8;21;12.2;NV
 14;Arlington Arizona;33.333333  -112.916667;5.875;23;12.15;AZ
-16;Wapello Iowa;41.179722  -91.188333;4.325;11;12.2;IA
-17;Greenfield Adair County  Iowa;41.4669  -94.2627;4.425;10;12.15;IA
+15;Wapello Iowa;41.179722  -91.188333;4.325;11;12.2;IA
+16;Greenfield Adair County  Iowa;41.4669  -94.2627;4.425;10;12.15;IA

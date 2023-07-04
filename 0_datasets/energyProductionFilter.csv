@@ -1,4 +1,4 @@
-STATE,ENERGY SOURCE,GENERATION (Megawatthours)
+State,EnergySource,Generation_MWH
 AZ,Coal,28601150.0
 AZ,Hydroelectric Conventional,11634890.0
 AZ,Natural Gas,96372948.0

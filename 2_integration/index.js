@@ -36,7 +36,8 @@ client.connect((err) => {
     Radiation_kWH NUMERIC(8,3),
     AvgTemperature_celsius NUMERIC(8,3),
     HoursOfSun NUMERIC(8,3),
-    Code VARCHAR(100)
+    Code VARCHAR(100),
+    FullName VARCHAR(100)
   );
 
   CREATE TABLE IF NOT EXISTS energyProduction (
@@ -44,6 +45,7 @@ client.connect((err) => {
     State VARCHAR(100),
     EnergySource VARCHAR(100), 
     Generation_MWH NUMERIC(100,5),
+    FullName VARCHAR(100), 
     FuelID INT NULL,
     FOREIGN KEY (FuelID) REFERENCES fuel (id),
     LocationID INT NULL,

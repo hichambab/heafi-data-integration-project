@@ -314,7 +314,7 @@ async function insertIntoEnergyProduction() {
     .pipe(csv({ separator: ';' }))
     .on('data', (row) => {
       //Process each row of the CSV file
-      const { id, State, EnergySource, Generation_MWH } = row;
+      const { id, State, EnergySource, Generation_MWH, FullName } = row;
       //Insert the data into the database
       const query = `
         INSERT INTO energyProduction (
@@ -322,12 +322,13 @@ async function insertIntoEnergyProduction() {
           State,
           EnergySource,
           Generation_MWH,
+          FullName,
           FuelID,
           LocationID
         )
-        VALUES ($1, $2, $3, $4,
-          (SELECT id FROM fuel WHERE Fuel = $5),
-          (SELECT id FROM location WHERE Code = $6)
+        VALUES ($1, $2, $3, $4, $5,
+          (SELECT id FROM fuel WHERE Fuel = $6),
+          (SELECT id FROM location WHERE Code = $7)
           )`;
 
       const values = [
@@ -335,6 +336,7 @@ async function insertIntoEnergyProduction() {
         State,
         EnergySource,
         Generation_MWH,
+        FullName,
         EnergySource,
         State
       ];

@@ -1,10 +1,10 @@
-id;Radiation_kWH;AvgTemperature_celsius;HoursOfSun;Code
-1;4.7;21;12.5;SC
-2;4.475;16;12.51;IA
-3;4.85;20;12.25;GA
-4;4.5;21;12.25;AL
-5;4.425;15;11.91;OR
-6;5.425;13;11.9;NV
-7;4.65;20;11.89;NC
-8;5.875;22;12.15;CA
-9;5.875;23;12.15;AZ
+id;Radiation_kWH;AvgTemperature_celsius;HoursOfSun;Code;FullName
+1;4.7;21;12.5;SC;South Carolina
+2;4.475;16;12.51;IA;Iowa
+3;4.85;20;12.25;GA;Georgia
+4;4.5;21;12.25;AL;Alabama
+5;4.425;15;11.91;OR;Oregon
+6;5.425;13;11.9;NV;Nevada
+7;4.65;20;11.89;NC;NorthCarolina
+8;5.875;22;12.15;CA;California
+9;5.875;23;12.15;AZ;Arizona
